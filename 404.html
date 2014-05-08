@@ -1,5 +1,29 @@
 <!DOCTYPE html>
-<title>404: page cannot be found</title>
-<p>404: page cannot befound</p>
-<p><a href="http://blog.boxparadox.com">go to blog root</a></p>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>404: page cannot be found</title>
+	<style>
+		body{font-family: serif; margin:0; padding:20px;}
+	</style>
+</head>
+<body>
+	<p>No such page...</p>
+	<p><a href="http://blog.boxparadox.com">blog root</a></p>
+
+	<pre>
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}/
+    %title 404: page cannot be found
+    :css
+      body{font-family: serif; margin:0; padding:20px;}
+  %body
+    %p No such page...
+    %p
+      %a{href: "http://blog.boxparadox.com"} blog root
+</pre>
+</body>
+</html>
 
